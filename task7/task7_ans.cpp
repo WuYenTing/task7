@@ -60,7 +60,7 @@ void game_init() {
     }
 
     display = al_create_display(width, height);
-    al_set_window_position(display,10, 10);
+    al_set_window_position(display,100 ,100);
     event_queue = al_create_event_queue();
     timer = al_create_timer(1 / 30.0);
     if ( display == NULL ) {
