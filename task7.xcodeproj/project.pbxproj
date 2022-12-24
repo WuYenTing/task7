@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EA41CAC2957022E0076FCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA41CAB2957022E0076FCDD /* Assets.xcassets */; };
+		3EA41CAF2957022E0076FCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA41CAD2957022E0076FCDD /* Main.storyboard */; };
+		3EA41CE2295703370076FCDD /* liballegro_dialog.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CD5295703330076FCDD /* liballegro_dialog.5.2.9.dylib */; };
+		3EA41CE3295703370076FCDD /* liballegro_dialog.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CD5295703330076FCDD /* liballegro_dialog.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CE4295703370076FCDD /* liballegro_physfs.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CD6295703330076FCDD /* liballegro_physfs.5.2.9.dylib */; };
+		3EA41CE5295703370076FCDD /* liballegro_physfs.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CD6295703330076FCDD /* liballegro_physfs.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CE6295703370076FCDD /* liballegro_memfile.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CD7295703330076FCDD /* liballegro_memfile.5.2.9.dylib */; };
+		3EA41CE7295703380076FCDD /* liballegro_memfile.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CD7295703330076FCDD /* liballegro_memfile.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CE8295703380076FCDD /* liballegro_ttf.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CD8295703330076FCDD /* liballegro_ttf.5.2.9.dylib */; };
+		3EA41CE9295703380076FCDD /* liballegro_ttf.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CD8295703330076FCDD /* liballegro_ttf.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CEA295703380076FCDD /* liballegro_video.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CD9295703340076FCDD /* liballegro_video.5.2.9.dylib */; };
+		3EA41CEB295703390076FCDD /* liballegro_video.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CD9295703340076FCDD /* liballegro_video.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CEC295703390076FCDD /* liballegro_main.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDA295703340076FCDD /* liballegro_main.5.2.9.dylib */; };
+		3EA41CED295703390076FCDD /* liballegro_main.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDA295703340076FCDD /* liballegro_main.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CEE2957033A0076FCDD /* liballegro_primitives.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDB295703350076FCDD /* liballegro_primitives.5.2.9.dylib */; };
+		3EA41CEF2957033A0076FCDD /* liballegro_primitives.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDB295703350076FCDD /* liballegro_primitives.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CF02957033B0076FCDD /* liballegro_font.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDC295703350076FCDD /* liballegro_font.5.2.9.dylib */; };
+		3EA41CF12957033B0076FCDD /* liballegro_font.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDC295703350076FCDD /* liballegro_font.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CF22957033C0076FCDD /* liballegro_image.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDD295703350076FCDD /* liballegro_image.5.2.9.dylib */; };
+		3EA41CF32957033C0076FCDD /* liballegro_image.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDD295703350076FCDD /* liballegro_image.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CF42957033D0076FCDD /* liballegro.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDE295703360076FCDD /* liballegro.5.2.9.dylib */; };
+		3EA41CF52957033E0076FCDD /* liballegro.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDE295703360076FCDD /* liballegro.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CF62957033E0076FCDD /* liballegro_color.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CDF295703360076FCDD /* liballegro_color.5.2.9.dylib */; };
+		3EA41CF72957033F0076FCDD /* liballegro_color.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CDF295703360076FCDD /* liballegro_color.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CF8295703400076FCDD /* liballegro_audio.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CE0295703360076FCDD /* liballegro_audio.5.2.9.dylib */; };
+		3EA41CF9295703400076FCDD /* liballegro_audio.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CE0295703360076FCDD /* liballegro_audio.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CFA295703410076FCDD /* liballegro_acodec.5.2.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA41CE1295703370076FCDD /* liballegro_acodec.5.2.9.dylib */; };
+		3EA41CFB295703420076FCDD /* liballegro_acodec.5.2.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 3EA41CE1295703370076FCDD /* liballegro_acodec.5.2.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3EA41CFF295703820076FCDD /* meme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3EA41CFD295703810076FCDD /* meme.gif */; };
+		3EA41D00295703820076FCDD /* task7_ans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA41CFE295703820076FCDD /* task7_ans.cpp */; };
+		3EA41D06295703970076FCDD /* lzw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA41D01295703970076FCDD /* lzw.cpp */; };
+		3EA41D07295703970076FCDD /* bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA41D02295703970076FCDD /* bitmap.cpp */; };
+		3EA41D08295703970076FCDD /* algif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA41D04295703970076FCDD /* algif.cpp */; };
+		3EA41D09295703970076FCDD /* gif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA41D05295703970076FCDD /* gif.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EA41CB82957022E0076FCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA41C9A2957022C0076FCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA41CA12957022C0076FCDD;
+			remoteInfo = task7;
+		};
+		3EA41CC22957022F0076FCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA41C9A2957022C0076FCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA41CA12957022C0076FCDD;
+			remoteInfo = task7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EA41CFC295703430076FCDD /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3EA41CE9295703380076FCDD /* liballegro_ttf.5.2.9.dylib in Embed Libraries */,
+				3EA41CEB295703390076FCDD /* liballegro_video.5.2.9.dylib in Embed Libraries */,
+				3EA41CFB295703420076FCDD /* liballegro_acodec.5.2.9.dylib in Embed Libraries */,
+				3EA41CF12957033B0076FCDD /* liballegro_font.5.2.9.dylib in Embed Libraries */,
+				3EA41CF72957033F0076FCDD /* liballegro_color.5.2.9.dylib in Embed Libraries */,
+				3EA41CF32957033C0076FCDD /* liballegro_image.5.2.9.dylib in Embed Libraries */,
+				3EA41CE5295703370076FCDD /* liballegro_physfs.5.2.9.dylib in Embed Libraries */,
+				3EA41CF9295703400076FCDD /* liballegro_audio.5.2.9.dylib in Embed Libraries */,
+				3EA41CE7295703380076FCDD /* liballegro_memfile.5.2.9.dylib in Embed Libraries */,
+				3EA41CED295703390076FCDD /* liballegro_main.5.2.9.dylib in Embed Libraries */,
+				3EA41CEF2957033A0076FCDD /* liballegro_primitives.5.2.9.dylib in Embed Libraries */,
+				3EA41CE3295703370076FCDD /* liballegro_dialog.5.2.9.dylib in Embed Libraries */,
+				3EA41CF52957033E0076FCDD /* liballegro.5.2.9.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3EA41CA22957022C0076FCDD /* task7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA41CAB2957022E0076FCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EA41CAE2957022E0076FCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EA41CB22957022E0076FCDD /* task7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = task7.entitlements; sourceTree = "<group>"; };
+		3EA41CB72957022E0076FCDD /* task7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA41CC12957022F0076FCDD /* task7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA41CD5295703330076FCDD /* liballegro_dialog.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_dialog.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_dialog.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CD6295703330076FCDD /* liballegro_physfs.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_physfs.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_physfs.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CD7295703330076FCDD /* liballegro_memfile.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_memfile.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_memfile.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CD8295703330076FCDD /* liballegro_ttf.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_ttf.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_ttf.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CD9295703340076FCDD /* liballegro_video.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_video.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_video.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDA295703340076FCDD /* liballegro_main.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_main.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_main.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDB295703350076FCDD /* liballegro_primitives.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_primitives.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_primitives.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDC295703350076FCDD /* liballegro_font.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_font.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_font.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDD295703350076FCDD /* liballegro_image.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_image.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_image.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDE295703360076FCDD /* liballegro.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CDF295703360076FCDD /* liballegro_color.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_color.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_color.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CE0295703360076FCDD /* liballegro_audio.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_audio.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_audio.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CE1295703370076FCDD /* liballegro_acodec.5.2.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_acodec.5.2.9.dylib; path = ../../allegro5/build/lib/liballegro_acodec.5.2.9.dylib; sourceTree = "<group>"; };
+		3EA41CFD295703810076FCDD /* meme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = meme.gif; sourceTree = "<group>"; };
+		3EA41CFE295703820076FCDD /* task7_ans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = task7_ans.cpp; sourceTree = "<group>"; };
+		3EA41D01295703970076FCDD /* lzw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lzw.cpp; sourceTree = "<group>"; };
+		3EA41D02295703970076FCDD /* bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitmap.cpp; sourceTree = "<group>"; };
+		3EA41D03295703970076FCDD /* algif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algif.h; sourceTree = "<group>"; };
+		3EA41D04295703970076FCDD /* algif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algif.cpp; sourceTree = "<group>"; };
+		3EA41D05295703970076FCDD /* gif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gif.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA41C9F2957022C0076FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA41CE8295703380076FCDD /* liballegro_ttf.5.2.9.dylib in Frameworks */,
+				3EA41CEA295703380076FCDD /* liballegro_video.5.2.9.dylib in Frameworks */,
+				3EA41CFA295703410076FCDD /* liballegro_acodec.5.2.9.dylib in Frameworks */,
+				3EA41CF02957033B0076FCDD /* liballegro_font.5.2.9.dylib in Frameworks */,
+				3EA41CF62957033E0076FCDD /* liballegro_color.5.2.9.dylib in Frameworks */,
+				3EA41CF22957033C0076FCDD /* liballegro_image.5.2.9.dylib in Frameworks */,
+				3EA41CE4295703370076FCDD /* liballegro_physfs.5.2.9.dylib in Frameworks */,
+				3EA41CF8295703400076FCDD /* liballegro_audio.5.2.9.dylib in Frameworks */,
+				3EA41CE6295703370076FCDD /* liballegro_memfile.5.2.9.dylib in Frameworks */,
+				3EA41CEC295703390076FCDD /* liballegro_main.5.2.9.dylib in Frameworks */,
+				3EA41CEE2957033A0076FCDD /* liballegro_primitives.5.2.9.dylib in Frameworks */,
+				3EA41CE2295703370076FCDD /* liballegro_dialog.5.2.9.dylib in Frameworks */,
+				3EA41CF42957033D0076FCDD /* liballegro.5.2.9.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CB42957022E0076FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CBE2957022F0076FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EA41C992957022C0076FCDD = {
+			isa = PBXGroup;
+			children = (
+				3EA41CA42957022C0076FCDD /* task7 */,
+				3EA41CA32957022C0076FCDD /* Products */,
+				3EA41CD4295703320076FCDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA41CA32957022C0076FCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA41CA22957022C0076FCDD /* task7.app */,
+				3EA41CB72957022E0076FCDD /* task7Tests.xctest */,
+				3EA41CC12957022F0076FCDD /* task7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA41CA42957022C0076FCDD /* task7 */ = {
+			isa = PBXGroup;
+			children = (
+				3EA41D04295703970076FCDD /* algif.cpp */,
+				3EA41D03295703970076FCDD /* algif.h */,
+				3EA41D02295703970076FCDD /* bitmap.cpp */,
+				3EA41D05295703970076FCDD /* gif.cpp */,
+				3EA41D01295703970076FCDD /* lzw.cpp */,
+				3EA41CFD295703810076FCDD /* meme.gif */,
+				3EA41CFE295703820076FCDD /* task7_ans.cpp */,
+				3EA41CAB2957022E0076FCDD /* Assets.xcassets */,
+				3EA41CAD2957022E0076FCDD /* Main.storyboard */,
+				3EA41CB22957022E0076FCDD /* task7.entitlements */,
+			);
+			path = task7;
+			sourceTree = "<group>";
+		};
+		3EA41CD4295703320076FCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA41CE1295703370076FCDD /* liballegro_acodec.5.2.9.dylib */,
+				3EA41CE0295703360076FCDD /* liballegro_audio.5.2.9.dylib */,
+				3EA41CDF295703360076FCDD /* liballegro_color.5.2.9.dylib */,
+				3EA41CD5295703330076FCDD /* liballegro_dialog.5.2.9.dylib */,
+				3EA41CDC295703350076FCDD /* liballegro_font.5.2.9.dylib */,
+				3EA41CDD295703350076FCDD /* liballegro_image.5.2.9.dylib */,
+				3EA41CDA295703340076FCDD /* liballegro_main.5.2.9.dylib */,
+				3EA41CD7295703330076FCDD /* liballegro_memfile.5.2.9.dylib */,
+				3EA41CD6295703330076FCDD /* liballegro_physfs.5.2.9.dylib */,
+				3EA41CDB295703350076FCDD /* liballegro_primitives.5.2.9.dylib */,
+				3EA41CD8295703330076FCDD /* liballegro_ttf.5.2.9.dylib */,
+				3EA41CD9295703340076FCDD /* liballegro_video.5.2.9.dylib */,
+				3EA41CDE295703360076FCDD /* liballegro.5.2.9.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA41CA12957022C0076FCDD /* task7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA41CCB2957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7" */;
+			buildPhases = (
+				3EA41C9E2957022C0076FCDD /* Sources */,
+				3EA41C9F2957022C0076FCDD /* Frameworks */,
+				3EA41CA02957022C0076FCDD /* Resources */,
+				3EA41CFC295703430076FCDD /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = task7;
+			productName = task7;
+			productReference = 3EA41CA22957022C0076FCDD /* task7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EA41CB62957022E0076FCDD /* task7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA41CCE2957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7Tests" */;
+			buildPhases = (
+				3EA41CB32957022E0076FCDD /* Sources */,
+				3EA41CB42957022E0076FCDD /* Frameworks */,
+				3EA41CB52957022E0076FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA41CB92957022E0076FCDD /* PBXTargetDependency */,
+			);
+			name = task7Tests;
+			productName = task7Tests;
+			productReference = 3EA41CB72957022E0076FCDD /* task7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EA41CC02957022F0076FCDD /* task7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA41CD12957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7UITests" */;
+			buildPhases = (
+				3EA41CBD2957022F0076FCDD /* Sources */,
+				3EA41CBE2957022F0076FCDD /* Frameworks */,
+				3EA41CBF2957022F0076FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA41CC32957022F0076FCDD /* PBXTargetDependency */,
+			);
+			name = task7UITests;
+			productName = task7UITests;
+			productReference = 3EA41CC12957022F0076FCDD /* task7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA41C9A2957022C0076FCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3EA41CA12957022C0076FCDD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3EA41CB62957022E0076FCDD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EA41CA12957022C0076FCDD;
+					};
+					3EA41CC02957022F0076FCDD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EA41CA12957022C0076FCDD;
+					};
+				};
+			};
+			buildConfigurationList = 3EA41C9D2957022C0076FCDD /* Build configuration list for PBXProject "task7" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EA41C992957022C0076FCDD;
+			productRefGroup = 3EA41CA32957022C0076FCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA41CA12957022C0076FCDD /* task7 */,
+				3EA41CB62957022E0076FCDD /* task7Tests */,
+				3EA41CC02957022F0076FCDD /* task7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA41CA02957022C0076FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA41CAC2957022E0076FCDD /* Assets.xcassets in Resources */,
+				3EA41CFF295703820076FCDD /* meme.gif in Resources */,
+				3EA41CAF2957022E0076FCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CB52957022E0076FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CBF2957022F0076FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA41C9E2957022C0076FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA41D00295703820076FCDD /* task7_ans.cpp in Sources */,
+				3EA41D09295703970076FCDD /* gif.cpp in Sources */,
+				3EA41D08295703970076FCDD /* algif.cpp in Sources */,
+				3EA41D07295703970076FCDD /* bitmap.cpp in Sources */,
+				3EA41D06295703970076FCDD /* lzw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CB32957022E0076FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA41CBD2957022F0076FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA41CB92957022E0076FCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA41CA12957022C0076FCDD /* task7 */;
+			targetProxy = 3EA41CB82957022E0076FCDD /* PBXContainerItemProxy */;
+		};
+		3EA41CC32957022F0076FCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA41CA12957022C0076FCDD /* task7 */;
+			targetProxy = 3EA41CC22957022F0076FCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EA41CAD2957022E0076FCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA41CAE2957022E0076FCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EA41CC92957022F0076FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3EA41CCA2957022F0076FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3EA41CCC2957022F0076FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = task7/task7.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3EA41CCD2957022F0076FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = task7/task7.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		3EA41CCF2957022F0076FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task7.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/task7";
+			};
+			name = Debug;
+		};
+		3EA41CD02957022F0076FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task7.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/task7";
+			};
+			name = Release;
+		};
+		3EA41CD22957022F0076FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = task7;
+			};
+			name = Debug;
+		};
+		3EA41CD32957022F0076FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.task7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = task7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA41C9D2957022C0076FCDD /* Build configuration list for PBXProject "task7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA41CC92957022F0076FCDD /* Debug */,
+				3EA41CCA2957022F0076FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA41CCB2957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA41CCC2957022F0076FCDD /* Debug */,
+				3EA41CCD2957022F0076FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA41CCE2957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA41CCF2957022F0076FCDD /* Debug */,
+				3EA41CD02957022F0076FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA41CD12957022F0076FCDD /* Build configuration list for PBXNativeTarget "task7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA41CD22957022F0076FCDD /* Debug */,
+				3EA41CD32957022F0076FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EA41C9A2957022C0076FCDD /* Project object */;
+}
